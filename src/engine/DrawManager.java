@@ -121,7 +121,7 @@ public final class DrawManager {
 
 	/**
 	 * Returns shared instance of DrawManager.
-	 * 
+	 *
 	 * @return Shared instance of DrawManager.
 	 */
 	protected static DrawManager getInstance() {
@@ -132,7 +132,7 @@ public final class DrawManager {
 
 	/**
 	 * Sets the frame to draw the image on.
-	 * 
+	 *
 	 * @param currentFrame
 	 *            Frame to draw on.
 	 */
@@ -143,7 +143,7 @@ public final class DrawManager {
 	/**
 	 * First part of the drawing process. Initialize buffers, draws the
 	 * background and prepares the images.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw in.
 	 */
@@ -167,7 +167,7 @@ public final class DrawManager {
 
 	/**
 	 * Draws the completed drawing on screen.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw on.
 	 */
@@ -178,7 +178,7 @@ public final class DrawManager {
 
 	/**
 	 * Draws an entity, using the appropriate image.
-	 * 
+	 *
 	 * @param entity
 	 *            Entity to be drawn.
 	 * @param positionX
@@ -200,7 +200,7 @@ public final class DrawManager {
 
 	/**
 	 * For debugging purpouses, draws the canvas borders.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw in.
 	 */
@@ -217,7 +217,7 @@ public final class DrawManager {
 
 	/**
 	 * For debugging purpouses, draws a grid over the canvas.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw in.
 	 */
@@ -232,7 +232,7 @@ public final class DrawManager {
 
 	/**
 	 * Draws current score on screen.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw on.
 	 * @param score
@@ -247,7 +247,7 @@ public final class DrawManager {
 
 	/**
 	 * Draws number of remaining lives on screen.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw on.
 	 * @param lives
@@ -264,7 +264,7 @@ public final class DrawManager {
 
 	/**
 	 * Draws a thick line from side to side of the screen.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw on.
 	 * @param positionY
@@ -279,7 +279,7 @@ public final class DrawManager {
 
 	/**
 	 * Draws game title.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw on.
 	 */
@@ -298,7 +298,7 @@ public final class DrawManager {
 
 	/**
 	 * Draws main menu.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw on.
 	 * @param option
@@ -354,7 +354,7 @@ public final class DrawManager {
 
 	/**
 	 * Draws game results.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw on.
 	 * @param score
@@ -394,7 +394,7 @@ public final class DrawManager {
 
 	/**
 	 * Draws interactive characters for name input.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw on.
 	 * @param name
@@ -443,7 +443,7 @@ public final class DrawManager {
 
 	/**
 	 * Draws basic content of game over screen.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw on.
 	 * @param acceptsInput
@@ -473,7 +473,7 @@ public final class DrawManager {
 
 	/**
 	 * Draws high score screen title and instructions.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw on.
 	 */
@@ -491,7 +491,7 @@ public final class DrawManager {
 
 	/**
 	 * Draws high scores.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw on.
 	 * @param highScores
@@ -514,7 +514,7 @@ public final class DrawManager {
 
 	/**
 	 * Draws a centered string on regular font.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw on.
 	 * @param string
@@ -546,7 +546,7 @@ public final class DrawManager {
 
 	/**
 	 * Draws a centered string on big font.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw on.
 	 * @param string
@@ -563,7 +563,7 @@ public final class DrawManager {
 
 	/**
 	 * Countdown to game start.
-	 * 
+	 *
 	 * @param screen
 	 *            Screen to draw on.
 	 * @param level
@@ -800,8 +800,8 @@ public final class DrawManager {
 					- fontRegularMetrics.stringWidth("ITEM") / 2 , screen.getHeight() / 4 + fontRegularMetrics.getHeight() * 15);
 		}
 	}
-
-	public void drawSelect2PModeAndSkillModeScreen(Screen screen, int gameMode, boolean skillModeOn, boolean nextItem){
+	public void drawSelect2PModeAndSkillModeScreen(Screen screen, int gameMode, boolean skillModeOn, boolean nextItem)
+	{
 		String selectString = "Select Mode";
 		String instructionsString =
 				"select with a+d / arrows, confirm with space";
