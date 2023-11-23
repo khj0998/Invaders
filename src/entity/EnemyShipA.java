@@ -19,7 +19,7 @@ public class EnemyShipA extends EnemyShip {
     public EnemyShipA(final int positionX, final int positionY,
                       final DrawManager.SpriteType spriteType, final GameState gameState) {
         super(positionX, positionY, spriteType, gameState);
-        super.setColor(Color.red);
+        super.setColor(Color.CYAN);
         super.HP = (int)(super.HP * HPPOWER);
         super.pointValue = POINT;
     }
