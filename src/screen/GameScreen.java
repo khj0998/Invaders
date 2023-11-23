@@ -193,6 +193,7 @@ public class GameScreen extends Screen {
 	public final void initialize() {
 		super.initialize();
 
+
 		enemyShipFormation = new EnemyShipFormation(this.gameSettings, this.gameState);
 		enemyShipFormation.attach(this);
 		Player player;
