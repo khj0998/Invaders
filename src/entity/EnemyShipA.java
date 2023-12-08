@@ -21,6 +21,7 @@ public class EnemyShipA extends EnemyShip {
         super(positionX, positionY, spriteType, gameState);
         super.setColor(Color.ORANGE);
         super.HP = (int)(super.HP * HPPOWER);
+        super.setColor(Color.CYAN);
         super.pointValue = POINT;
     }
 
